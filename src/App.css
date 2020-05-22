@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+html{
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+}
+.jumbo-intro{
+  background: none;
+  height:600px;
+}
+.jumbo-intro>p{
+  font-size: 70px;  
+  top: 55%;
+  position:absolute;
+  left:4%;
+}
+.type-effect{
+  top: 70%;
+  position:absolute;
+  left:4%;
+  font-size: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-main{
+  float: right;
+  margin-right: 10%;
+  height: 350px;
+  width: 300px;
+  opacity: 0.97;
+  background: transparent;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* -----------------  Projects CSS  -----------------------*/
+.project-head{
+  font-size:32px;
+  margin-top: 14%;
+}
+.img-ht{
+  max-height:210px;
+}
+.proj-card{
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03) !important;
+  transition: all .35s ease; /* back to normal */
+}
+.proj-card:hover{
+  transform: translate3D(0,-10px,0) scale(1.03);
 }
 
-.App-link {
-  color: #61dafb;
+/* -------------- Nav Class------------- */
+
+.cv-link{
+
+  font-size: 25px;
+  color: #6665a0 !important;
+  padding:10px;
+  border: 1px solid ;
+  border-radius: 9px;
+  transition: all 0.3s ease-in !important;
+}
+.cv-link:hover{
+  text-decoration: none;
+  color: #5c5ae9;
+}
+.nav-class{
+  background-color: transparent !important;
+  transition: all 0.3s ease-out;
+}
+.scroll{
+  transition: all 0.2s ease-in;
+  background-color: rgb(255, 255, 255) !important;
+  
+}
+.nav-head{
+  font-size: 25px;
+  color: #5c5ae9 !important;
+}
+.n-link{
+  color: #6665a0 !important;
+  font-weight: 500;
+  font-size: 19px;
+  transition: all 0.4s ease !important;
+}
+.nav-toggler:focus,
+.nav-toggler:active,
+.nav-toggler:focus {
+    outline: none;
+    box-shadow: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*------------------- About -------------------*/
+
+.about-head {
+  margin-top: 15%;
+  font-size:32px;
+}
+.about-head-1{
+  font-size:42px;
+}
+.about-line{
+  margin-top: 30px;
+  width:80px;
+  border: 1px solid rgb(167, 163, 163);
+}
+.about-image{
+  height: 170px;
+  width: 165px;
+}
+/*------------ Contact page ----------------*/
+.contact{
+  padding: 100px;
+}
+.contact-head{
+  font-size:32px;
+}
+.icon{
+  font-size: 29px;
+  color: black;
+  display: inline-block !important;
+}
+.mail-icon{
+  color: black;
+  font-size: 25px;
+  padding: 10px;
+  width: 38px;
+}
+.icon-set{
+  display: inline-block !important;
 }
