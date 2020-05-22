@@ -6,8 +6,7 @@ export class NavbarHead extends Component {
         this.listener = null;
         this.state = {
           status: "top",
-          activeClass:"nav-class",
-          toggle:""
+          activeClass:"nav-class"
         };
       }
     
@@ -20,11 +19,6 @@ export class NavbarHead extends Component {
            this.setState({ activeClass });
         });
     }
-    changeToggle(){
-        let toggle="nav-toggler"
-        this.setState({toggle})
-    }
-    
     render() {
         return (
             <Navbar collapseOnSelect expand="lg" fixed="top" className={`${this.state.activeClass}`} bg="light" variant="light">

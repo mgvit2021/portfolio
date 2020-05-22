@@ -32,6 +32,17 @@ body{
 .react-rotating-text-cursor {
   animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
 }
+@media screen and (max-width : 460px)
+{
+  .jumbo-intro>p
+  {
+    font-size: 50px !important;
+  }
+  .type-effect
+  {
+    font-size: 38px !important;
+  }
+}
 @keyframes blinking-cursor {
   0% {
     opacity: 0;
@@ -63,7 +74,6 @@ body{
 /* -------------- Nav Class------------- */
 
 .cv-link{
-
   font-size: 25px;
   color: #6665a0 !important;
   padding:10px;
@@ -90,8 +100,13 @@ body{
 }
 .n-link{
   color: #6665a0 !important;
-  font-weight: 500;
   font-size: 19px;
+  transition: all 0.4s ease !important;
+}
+.n-link:hover{
+  color: #5c5ca7 !important;
+  font-size: 19px;
+  font-weight: bold;
   transition: all 0.4s ease !important;
 }
 .nav-toggler:focus,
