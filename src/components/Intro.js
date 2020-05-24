@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Jumbotron,Container} from 'react-bootstrap'
 import ReactRotatingText  from 'react-rotating-text'
 import ParticlesBg from "particles-bg";
-import {Fade,Zoom} from 'react-reveal';
+import {Zoom} from 'react-reveal';
 // "color"
 // "ball"
 // "lines"

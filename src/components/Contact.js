@@ -18,10 +18,10 @@ export default function Contact() {
             </Row>
             <Row className="mt-5">
             <div className="mx-auto icon-set">
-                <a href="https://www.facebook.com/mridul108" target="_blank" className="mr-3"><img className="icon" src={facebook} alt="facebook"></img></a>
-                <a href="https://github.com/mgvit2021" target="_blank" className="mr-3"><img className="icon" src={github} alt="facebook"></img></a>
-                <a href="https://www.linkedin.com/in/mridul-gupta2021" target="_blank" className="mr-3"><img className="icon" src={linkedin} alt="facebook"></img></a>
-                <a href="https://www.instagram.com/mridul_gupta_/" target="_blank" ><img className="icon" src={instagram} alt="facebook"></img></a>
+                <a href="https://www.facebook.com/mridul108" target="_blank" rel="noopener noreferrer" className="mr-3"><img className="icon" src={facebook} alt="facebook"></img></a>
+                <a href="https://github.com/mgvit2021" target="_blank" rel="noopener noreferrer" className="mr-3"><img className="icon" src={github} alt="facebook"></img></a>
+                <a href="https://www.linkedin.com/in/mridul-gupta2021" target="_blank" rel="noopener noreferrer" className="mr-3"><img className="icon" src={linkedin} alt="facebook"></img></a>
+                <a href="https://www.instagram.com/mridul_gupta_/" target="_blank" rel="noopener noreferrer" ><img className="icon" src={instagram} alt="facebook"></img></a>
             </div>
             </Row>
             </Fade>
