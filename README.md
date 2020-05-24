@@ -1,4 +1,13 @@
-## Portfolio https://mgvit2021.github.io/portfolio
+# React-Portfolio App
+
+  
+Personal portfolio page [mgvit2021.github.io/portfolio](https://mgvit2021.github.io/portfolio) built in React.
+
+## Libraries Used
+
+* **react-bootstrap** : For styling the components.
+
+* **react-reveal** : Library for animation effects on scroll.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
