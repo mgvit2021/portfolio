@@ -1,75 +1,6 @@
 html{
   scroll-behavior: smooth;
 }
-body{
-  overflow-x: hidden;
-}
-.jumbo-intro{
-  background: none;
-  height:600px;
-}
-.jumbo-intro>p{
-  font-size: 70px;  
-  top: 55%;
-  position:absolute;
-  left:4%;
-}
-.type-effect{
-  top: 70%;
-  position:absolute;
-  left:4%;
-  font-size: 40px;
-}
-
-.img-main{
-  float: right;
-  margin-right: 10%;
-  height: 350px;
-  width: 300px;
-  opacity: 0.97;
-  background: transparent;
-}
-.react-rotating-text-cursor {
-  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
-}
-@media screen and (max-width : 460px)
-{
-  .jumbo-intro>p
-  {
-    font-size: 50px !important;
-  }
-  .type-effect
-  {
-    font-size: 38px !important;
-  }
-}
-@keyframes blinking-cursor {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-/* -----------------  Projects CSS  -----------------------*/
-.project-head{
-  font-size:32px;
-  margin-top: 14%;
-}
-.img-ht{
-  max-height:210px;
-}
-.proj-card{
-  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03) !important;
-  transition: all .35s ease; /* back to normal */
-}
-.proj-card:hover{
-  transform: translate3D(0,-10px,0) scale(1.03);
-}
 
 /* -------------- Nav Class------------- */
 
@@ -116,6 +47,50 @@ body{
     box-shadow: none;
 }
 
+
+/*------------- Introduction ----------------*/
+.jumbo-intro{
+  background: none;
+  height:600px;
+}
+.jumbo-intro>p{
+  font-size: 70px;  
+  top: 55%;
+  position:absolute;
+  left:4%;
+}
+.type-effect{
+  top: 70%;
+  position:absolute;
+  left:4%;
+  font-size: 40px;
+}
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+@media screen and (max-width : 460px)
+{
+  .jumbo-intro>p
+  {
+    font-size: 50px !important;
+  }
+  .type-effect
+  {
+    font-size: 38px !important;
+  }
+}
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /*------------------- About -------------------*/
 
 .about-head {
@@ -134,6 +109,24 @@ body{
   height: 170px;
   width: 165px;
 }
+
+/* -----------------  Projects CSS  -----------------------*/
+.project-head{
+  font-size:32px;
+  margin-top: 14%;
+}
+.img-ht{
+  max-height:210px;
+}
+.proj-card{
+  max-width: 410px;
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03) !important;
+  transition: all .35s ease; /* back to normal */
+}
+.proj-card:hover{
+  transform: translate3D(0,-10px,0) scale(1.03);
+}
+
 /*------------ Contact page ----------------*/
 .contact{
   padding: 100px;
@@ -142,16 +135,16 @@ body{
   font-size:32px;
 }
 .icon{
-  font-size: 29px;
+  height: 35px;
+  width: 35px;
   color: black;
   display: inline-block !important;
 }
 .mail-icon{
   color: black;
-  font-size: 25px;
   padding: 10px;
   width: 38px;
+  height: 30px;
 }
 .icon-set{
-  display: inline-block !important;
 }

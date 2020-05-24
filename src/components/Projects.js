@@ -5,16 +5,18 @@ import Taxi from '../images/Taxi.png'
 import PMS from '../images/PMS.svg'
 import Cloak from '../images/Cloak.gif'
 import Course from '../images/Course.jpg'
-
+import Fade from 'react-reveal/Fade';
 export class Projects extends Component {
+
     render() {
         return (
-            <Container id="projects">
+            <Container className="p-5" id="projects" style={{alignItems:"center"}}>
+            <Fade bottom>
             <h2  className="project-head lead text-center">Projects</h2>
             <hr className="about-line"></hr>
             <Row className="mt-4">
-            <Col xs={8} md={4} className="d-flex">
-                    <Card className="proj-card flex-fill" style={{ width: '18rem' }}>
+            <Col xs={12} md={4} className="d-flex">
+            <Card className="proj-card flex-fill mt-4" style={{ width: '18rem' }}>
                         <Card.Img className="img-ht" variant="top" src={Taxi} />
                         <Card.Body>
                             <Card.Title>GoTaxi</Card.Title>
@@ -28,8 +30,8 @@ export class Projects extends Component {
                             </Card.Footer>
                     </Card>
                 </Col>
-                <Col xs={8} md={4} className="d-flex">
-                <Card className="proj-card flex-fill" style={{ width: '18rem' }}>
+                <Col xs={12} md={4} className="d-flex">
+                <Card className="proj-card flex-fill mt-4" style={{ width: '18rem' }}>
                         <Card.Img className="img-ht" variant="top" src={PMS} />
                         <Card.Body>
                             <Card.Title>Product Management API</Card.Title>
@@ -45,8 +47,8 @@ export class Projects extends Component {
                             </Card.Footer>
                     </Card>
                 </Col>
-                <Col xs={8} md={4} className="d-flex">
-                <Card className="proj-card flex-fill" style={{ width: '18rem' }}>
+                <Col xs={12} md={4} className="d-flex">
+                <Card className="proj-card flex-fill mt-4" style={{ width: '18rem' }}>
                         <Card.Img className="img-ht" variant="top" src={SIHImage} />
                         <Card.Body>
                             <Card.Title>Elderly Care System</Card.Title>
@@ -61,8 +63,8 @@ export class Projects extends Component {
             </Row>
 
             <Row className="mt-4">
-            <Col xs={8} md={4} className="d-flex">
-                    <Card className="proj-card flex-fill" style={{ width: '18rem' }}>
+            <Col xs={12} md={4} className="d-flex">
+                    <Card className="proj-card flex-fill mt-4" style={{ width: '18rem' }}>
                         <Card.Img className="img-ht" variant="top" src={Cloak} />
                         <Card.Body>
                             <Card.Title>Invisible CLoak</Card.Title>
@@ -76,8 +78,8 @@ export class Projects extends Component {
                         </Card.Footer>
                     </Card>
                 </Col>
-                <Col xs={8} md={4} className="d-flex">
-                    <Card className="proj-card flex-fill" style={{ width: '18rem' }}>
+                <Col xs={12} md={4} className="d-flex">
+                    <Card className="proj-card flex-fill mt-4" style={{ width: '18rem' }}>
                         <Card.Img className="img-ht" variant="top" src={Course} />
                         <Card.Body>
                             <Card.Title>Coursify</Card.Title>
@@ -94,6 +96,7 @@ export class Projects extends Component {
                     </Card>
                 </Col>
             </Row>
+            </Fade>
             </Container>
         )
     }

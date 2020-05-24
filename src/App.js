@@ -5,12 +5,11 @@ import Intro from './components/Intro'
 import Projects from './components/Projects'
 import NavbarHead from './components/NavbarHead'
 import Contact from './components/Contact'
-
 import './App.css'
 function App() {
   return (
 
-    <Container className="p-0" fluid={true}>
+    <Container fluid={true}>
     <NavbarHead />
     <Row>
       <Intro />
