@@ -116,16 +116,16 @@ html{
   margin-top: 14%;
 }
 .img-ht{
-  max-height:210px;
+  max-height:210px !important;
 }
 .proj-card{
   max-width: 410px;
   box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03) !important;
   transition: all .35s ease; /* back to normal */
 }
-.proj-card:hover{
-  transform: translate3D(0,-10px,0) scale(1.03);
-}
+/* .proj-card:hover{
+  transform: translate3D(0,-5px,0) scale(1.03);
+} */
 
 /*------------ Contact page ----------------*/
 .contact{

@@ -21,7 +21,7 @@ export class Intro extends Component {
             <Zoom clear>
                 <Jumbotron fluid={true} className="text-center jumbo-intro">
                         <p className = "lead">Mridul Gupta</p>
-                        <ReactRotatingText className="type-effect lead" items={['Software Developer','Full Stack Developer','ML Engineer']} />
+                        <ReactRotatingText className="type-effect lead" items={['Software Developer','Full Stack Developer','ML Enthusiast']} />
                 </Jumbotron>
             </Zoom>
             </Container>
