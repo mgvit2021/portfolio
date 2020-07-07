@@ -25,7 +25,7 @@ export class About extends Component {
             </Row>
             <Row className="">
             <Col md={4} className="text-center">
-            <a className="lead cv-link shadow" href="https://bit.ly/2Z5WQAI"><b>View CV</b></a>
+            <a className="lead cv-link shadow" href="https://drive.google.com/file/d/115tGtlWkunzwn7Tqqh5_PWf1n5aKThH1/view?usp=sharing"><b>View CV</b></a>
             </Col>
             
             <Col md={8}>

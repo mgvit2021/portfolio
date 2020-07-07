@@ -29,7 +29,7 @@ export class Projects extends Component {
                         </Card.Body>
                         <Card.Footer className="text-center">
                                 <Card.Link href="https://github.com/mgvit2021/covid-19-tracker">GitHub</Card.Link>
-                                <Card.Link href="https://bit.ly/3fcMsNe">Application</Card.Link>
+                                <Card.Link href="https://mgvit2021.github.io/covid-19-tracker">Application</Card.Link>
                             </Card.Footer>
                     </Card>
                 </Col>
