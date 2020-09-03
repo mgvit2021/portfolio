@@ -49,18 +49,21 @@ html{
 
 
 /*------------- Introduction ----------------*/
+.intro{
+  margin-bottom: 75px;
+}
 .jumbo-intro{
   background: none;
-  height:600px;
+  height:650px;
 }
 .jumbo-intro>p{
   font-size: 70px;  
-  top: 55%;
+  top: 45%;
   position:absolute;
   left:4%;
 }
 .type-effect{
-  top: 70%;
+  top: 60%;
   position:absolute;
   left:4%;
   font-size: 40px;
@@ -75,9 +78,10 @@ html{
   {
     font-size: 50px !important;
   }
-  .type-effect
+  .jumbo-intro>.type-effect
   {
     font-size: 38px !important;
+    top: 55%;
   }
 }
 @keyframes blinking-cursor {

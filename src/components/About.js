@@ -17,15 +17,13 @@ export class About extends Component {
             <Col className="text-left mt-4" md={7}>
                 <p className="lead about-text">I am a senior year undergraduate at VIT University, Chennai completing my majors in Computer science. I enjoy being challenged and engage with projects that require me to work outside my comfort zone and knowledge set.
                 <br/>
-                <b>Some of my interests:</b> Data Structures and Algorithms, Web development, Deep Learning and Mathematics.
-                <br/>
-                <blockquote className="mt-3 font-italic text-center" style={{fontSize:"18px"}}><b>The idea that something I create can impact someone across the world now, or in the future is what drives my passion for Technology.</b></blockquote>
+                <b>Some of my interests:</b> Data Structures and Algorithms, API development, Mern Stack Development, Deep Learning and Mathematics.
                 </p>
             </Col>
             </Row>
             <Row className="">
             <Col md={4} className="text-center">
-            <a className="lead cv-link shadow" href="https://drive.google.com/file/d/115tGtlWkunzwn7Tqqh5_PWf1n5aKThH1/view?usp=sharing"><b>View CV</b></a>
+            <a className="lead cv-link shadow" href="https://drive.google.com/file/d/1eN_0WdfQNAUE2RjgFWvZ8ottt6Q-n9Gn/view?usp=sharing"><b>View CV</b></a>
             </Col>
             
             <Col md={8}>

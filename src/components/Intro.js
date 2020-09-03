@@ -17,7 +17,7 @@ export class Intro extends Component {
     render() {
         return (
             <Container id="intro" className="intro" fluid={true}>
-            <ParticlesBg color="#8753cc" type="cobweb" bg={true}/>
+            <ParticlesBg num={60} color="#8753cc" type="cobweb" bg={true}/>
             <Zoom clear>
                 <Jumbotron fluid={true} className="text-center jumbo-intro">
                         <p className = "lead">Mridul Gupta</p>
