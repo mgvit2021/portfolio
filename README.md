@@ -1,7 +1,7 @@
 # React-Portfolio App
 
   
-Personal portfolio page [mgvit2021.github.io/portfolio](https://mgvit2021.github.io/portfolio) built in React.
+Personal portfolio page [mgvit2021.github.io/portfolio](https://mgvit2021.github.io/portfolio) built with React.
 
 ## Libraries Used
 
