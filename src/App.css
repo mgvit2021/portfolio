@@ -61,7 +61,7 @@ html {
   left: 4%;
 }
 .type-effect {
-  top: 60%;
+  top: 57%;
   position: absolute;
   left: 4%;
   font-size: 40px;
@@ -76,13 +76,18 @@ html {
   float: right;
   position: relative;
 }
+@media screen and (max-width: 885px) {
+  .doodle {
+    display: none;
+  }
+}
 @media screen and (max-width: 460px) {
   .jumbo-intro > p {
     font-size: 50px !important;
   }
   .jumbo-intro > .type-effect {
-    font-size: 38px !important;
-    top: 55%;
+    font-size: 35px !important;
+    top: 53%;
   }
   .doodle {
     display: none;
