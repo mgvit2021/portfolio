@@ -61,10 +61,10 @@ html {
   left: 4%;
 }
 .type-effect {
-  top: 57%;
+  top: 58%;
   position: absolute;
   left: 4%;
-  font-size: 40px;
+  font-size: 38px;
 }
 
 .react-rotating-text-cursor {
@@ -80,19 +80,23 @@ html {
   .doodle {
     display: none;
   }
+  .coffeeImage {
+    display: none;
+  }
 }
 @media screen and (max-width: 460px) {
   .jumbo-intro > p {
-    font-size: 50px !important;
+    font-size: 56px !important;
   }
   .jumbo-intro > .type-effect {
-    font-size: 35px !important;
-    top: 53%;
+    font-size: 30px !important;
+    top: 55%;
   }
   .doodle {
     display: none;
   }
 }
+
 @keyframes blinking-cursor {
   0% {
     opacity: 0;
@@ -115,7 +119,7 @@ html {
   font-size: 42px;
 }
 .about-line {
-  margin-top: 30px;
+  margin-top: 20px;
   width: 80px;
   border: 1px solid rgb(167, 163, 163);
 }

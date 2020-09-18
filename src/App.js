@@ -5,6 +5,7 @@ import Intro from "./components/Intro";
 import Projects from "./components/Projects";
 import NavbarHead from "./components/NavbarHead";
 import Contact from "./components/Contact";
+import MyTimeline from "./components/MyTimeline";
 
 import "./App.css";
 function App() {
@@ -19,6 +20,9 @@ function App() {
       </Row>
       <Row>
         <Projects />
+      </Row>
+      <Row>
+        <MyTimeline />
       </Row>
       <Row>
         <Contact />
