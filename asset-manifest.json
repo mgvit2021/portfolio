@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.26134d44.chunk.css",
-    "main.js": "/portfolio/static/js/main.6653d55a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6653d55a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.cbc0c711.chunk.css",
+    "main.js": "/portfolio/static/js/main.72667e75.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.72667e75.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
-    "static/js/2.82a4055c.chunk.js": "/portfolio/static/js/2.82a4055c.chunk.js",
-    "static/js/2.82a4055c.chunk.js.map": "/portfolio/static/js/2.82a4055c.chunk.js.map",
+    "static/js/2.e8eace47.chunk.js": "/portfolio/static/js/2.e8eace47.chunk.js",
+    "static/js/2.e8eace47.chunk.js.map": "/portfolio/static/js/2.e8eace47.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d96678e13c9c15f665e856b337c2bb5f.js": "/portfolio/precache-manifest.d96678e13c9c15f665e856b337c2bb5f.js",
+    "precache-manifest.22e143e0ab0f9ddf8746f53bb1199bb9.js": "/portfolio/precache-manifest.22e143e0ab0f9ddf8746f53bb1199bb9.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.26134d44.chunk.css.map": "/portfolio/static/css/main.26134d44.chunk.css.map",
-    "static/js/2.82a4055c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.82a4055c.chunk.js.LICENSE.txt",
+    "static/css/main.cbc0c711.chunk.css.map": "/portfolio/static/css/main.cbc0c711.chunk.css.map",
+    "static/js/2.e8eace47.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e8eace47.chunk.js.LICENSE.txt",
     "static/media/Cloak.gif": "/portfolio/static/media/Cloak.faa9e42b.gif",
     "static/media/Course.jpg": "/portfolio/static/media/Course.a113cd9c.jpg",
     "static/media/PMS.svg": "/portfolio/static/media/PMS.c5035495.svg",
     "static/media/SIHImage.jpeg": "/portfolio/static/media/SIHImage.2f1535ee.jpeg",
     "static/media/Taxi.png": "/portfolio/static/media/Taxi.a5fdbb70.png",
+    "static/media/WFH.png": "/portfolio/static/media/WFH.17ff151e.png",
     "static/media/character 6.svg": "/portfolio/static/media/character 6.80250527.svg",
     "static/media/covid.jpeg": "/portfolio/static/media/covid.4afebc4f.jpeg",
     "static/media/email.svg": "/portfolio/static/media/email.77c83e33.svg",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f4f2abbf.js",
-    "static/js/2.82a4055c.chunk.js",
-    "static/css/main.26134d44.chunk.css",
-    "static/js/main.6653d55a.chunk.js"
+    "static/js/2.e8eace47.chunk.js",
+    "static/css/main.cbc0c711.chunk.css",
+    "static/js/main.72667e75.chunk.js"
   ]
 }
