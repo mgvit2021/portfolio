@@ -38,9 +38,6 @@ export class NavbarHead extends Component {
         />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mx-auto'>
-            <Nav.Link href='#intro' className='n-link pr-4'>
-              Home
-            </Nav.Link>
             <Nav.Link href='#about' className='n-link pr-4'>
               About
             </Nav.Link>
@@ -49,6 +46,13 @@ export class NavbarHead extends Component {
             </Nav.Link>
             <Nav.Link href='#timeline' className='n-link pr-4'>
               Contact
+            </Nav.Link>
+            <Nav.Link
+              target='blank'
+              href='https://drive.google.com/file/d/1eN_0WdfQNAUE2RjgFWvZ8ottt6Q-n9Gn/view?usp=sharing'
+              className='n-link pr-4'
+            >
+              Resume
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

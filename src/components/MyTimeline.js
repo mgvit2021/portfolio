@@ -66,7 +66,7 @@ export default function MyTimeline() {
               <Typography variant='h6' component='h1'>
                 Code
               </Typography>
-              <Typography>Because it&apos;s awesome!</Typography>
+              <Typography>Just give me my coffee!</Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>
@@ -113,7 +113,7 @@ export default function MyTimeline() {
               <Typography variant='h6' component='h1'>
                 Repeat
               </Typography>
-              <Typography>This is the life you love!</Typography>
+              <Typography>It's rewind time.</Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>
