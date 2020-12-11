@@ -1,20 +1,20 @@
-import React, { Component } from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import React, { Component } from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 export class NavbarHead extends Component {
   constructor(props) {
     super(props);
     this.listener = null;
     this.state = {
-      status: "top",
-      activeClass: "nav-class",
+      status: 'top',
+      activeClass: 'nav-class',
     };
   }
 
   componentDidMount() {
-    window.addEventListener("scroll", () => {
-      let activeClass = "nav-class";
+    window.addEventListener('scroll', () => {
+      let activeClass = 'nav-class';
       if (window.scrollY >= 30) {
-        activeClass = "scroll shadow";
+        activeClass = 'scroll shadow';
       }
       this.setState({ activeClass });
     });
