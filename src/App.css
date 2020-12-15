@@ -50,14 +50,37 @@ html {
 #banner {
   display: flex;
   height: 100vh;
+  text-align: center;
+  justify-content: center;
   width: 100vw;
   margin-top: 7%;
 }
 .intro {
   display: flex;
+  text-align: center;
+  justify-content: center;
   height: 100vh;
   margin-bottom: 100px;
-  width: 100vw;
+}
+@media screen and (max-width: 885px) {
+  .doodle {
+    display: none;
+  }
+  .coffeeImage {
+    display: none;
+  }
+}
+@media screen and (max-width: 460px) {
+  .jumbo-intro > p {
+    font-size: 56px !important;
+  }
+  .jumbo-intro > .type-effect {
+    font-size: 30px !important;
+    top: 55%;
+  }
+  .doodle {
+    display: none;
+  }
 }
 
 /*------------------- About -------------------*/

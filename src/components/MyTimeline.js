@@ -80,7 +80,7 @@ export default function MyTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant='h6' component='h1'>
-              <b>Play</b>
+                <b>Play</b>
               </Typography>
               <Typography>Who likes nerd&apos;s anyway!</Typography>
             </Paper>
