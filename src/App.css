@@ -49,55 +49,20 @@ html {
 /*------------- Introduction ----------------*/
 #banner {
   display: flex;
-  text-align: center;
-  justify-content: center;
   height: 100vh;
+  width: 100vw;
   margin-top: 7%;
 }
 .intro {
   display: flex;
-  text-align: center;
-  justify-content: center;
   height: 100vh;
   margin-bottom: 100px;
-}
-@media screen and (max-width: 885px) {
-  .doodle {
-    display: none;
-  }
-  .coffeeImage {
-    display: none;
-  }
-}
-@media screen and (max-width: 460px) {
-  .jumbo-intro > p {
-    font-size: 56px !important;
-  }
-  .jumbo-intro > .type-effect {
-    font-size: 30px !important;
-    top: 55%;
-  }
-  .doodle {
-    display: none;
-  }
-}
-
-@keyframes blinking-cursor {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+  width: 100vw;
 }
 
 /*------------------- About -------------------*/
-
 .about-head {
-  margin-top: 15%;
+  margin-top: 10%;
   font-size: 32px;
 }
 .about-head-1 {
@@ -116,7 +81,7 @@ html {
 /* -----------------  Projects CSS  -----------------------*/
 .project-head {
   font-size: 32px;
-  margin-top: 14%;
+  margin-top: 15%;
 }
 .img-ht {
   max-height: 210px !important;

@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import { Image } from "react-bootstrap";
-import { Row, Col } from "react-bootstrap";
-import Myself from "../images/Myself.jpg";
-import Fade from "react-reveal/Fade";
+import React, { Component } from 'react';
+import { Image } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
+import Myself from '../images/Myself.jpg';
+import Fade from 'react-reveal/Fade';
 export class About extends Component {
   render() {
     return (
-      <div className='about container' id='about'>
+      <div className='about container p-5' id='about'>
         <Fade bottom>
           <h4 className='lead about-head text-center'> About me </h4>
           <hr className='about-line'></hr>
