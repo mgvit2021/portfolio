@@ -6,19 +6,19 @@ import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-import FastfoodIcon from '@material-ui/icons/FastfoodRounded';
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
+import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
+import CodeIcon from '@material-ui/icons/Code';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import SportsCricketRoundedIcon from '@material-ui/icons/SportsCricketRounded';
+import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
 import { Container } from 'react-bootstrap';
 import WFH from '../images/WFH.png';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
     padding: '6px 16px',
+    marginBottom: '16px',
   },
   secondaryTail: {
     backgroundColor: theme.palette.secondary.main,
@@ -31,7 +31,7 @@ export default function MyTimeline() {
   return (
     <Container id='timeline'>
       <div className='timeline container'>
-        <h4 className='lead about-head text-center'>What my day looks like?</h4>
+        <h4 className='lead about-head text-center'>Experience</h4>
         <hr className='about-line'></hr>
       </div>
       <div style={{ float: 'left' }} className='coffeeImage'>
@@ -40,80 +40,76 @@ export default function MyTimeline() {
       <Timeline align='alternate' className='mt-4'>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot color='secondary'>
-              <FastfoodIcon fontSize='large' />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
-              <Typography variant='h6' component='h1'>
-                <b>Eat</b>
-              </Typography>
-              <Typography>Well, you need strength</Typography>
-            </Paper>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant='outlined'>
+            <TimelineDot color='primary' variant='outlined'>
               <LaptopMacIcon fontSize='large' />
             </TimelineDot>
-            <TimelineConnector />
+            <TimelineConnector className={classes.secondaryTail} />
           </TimelineSeparator>
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
-              <Typography variant='h6' component='h1'>
-                <b>Code</b>
+              <Typography variant='h6' component='h2'>
+                <b>Honeywell</b>
+                <p style={{ fontSize: '15px' }}>
+                  <i>Jan'21 - (Present)</i>
+                </p>
               </Typography>
-              <Typography>Just give me my coffee!</Typography>
+              <Typography>Software Engineering Intern</Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot color='primary' variant='outlined'>
-              <SportsCricketRoundedIcon fontSize='large' />
+              <DeveloperModeIcon fontSize='large' />
             </TimelineDot>
             <TimelineConnector className={classes.secondaryTail} />
           </TimelineSeparator>
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant='h6' component='h1'>
-                <b>Play</b>
+                <b>JP Morgan Chase</b>
+                <p style={{ fontSize: '15px' }}>
+                  <i>Apr'20 - May'20</i>
+                </p>
               </Typography>
-              <Typography>Who likes nerd&apos;s anyway!</Typography>
+              <Typography>Software Engineering virtual experience.</Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot color='primary'>
-              <HotelIcon fontSize='large' />
+            <TimelineDot color='primary' variant='outlined'>
+              <MonetizationOnIcon fontSize='large' />
             </TimelineDot>
-            <TimelineConnector className={classes.secondaryTail} />
+            <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant='h6' component='h1'>
-                <b>Sleep</b>
+                <b>PayPal</b>
+                <p style={{ fontSize: '15px' }}>
+                  <i>Jan'20 - Mar'20</i>
+                </p>
               </Typography>
-              <Typography>Ahh, the reward!</Typography>
+              <Typography>Trainee</Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot variant='outlined'>
-              <RepeatIcon fontSize='large' />
+              <CodeIcon fontSize='large' />
             </TimelineDot>
           </TimelineSeparator>
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant='h6' component='h1'>
-                <b>Repeat</b>
+                <b>Shine Projects</b>
+                <p style={{ fontSize: '15px' }}>
+                  <i>May'19 - June'19</i>
+                </p>
               </Typography>
-              <Typography>It's rewind time.</Typography>
+              <Typography>Full Stack Developer</Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>

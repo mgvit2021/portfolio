@@ -25,9 +25,11 @@ export class About extends Component {
                 challenged and engage with projects that require me to work
                 outside my comfort zone and knowledge set.
                 <br />
-                <b>Some of my interests:</b> Data Structures and Algorithms, API
-                development, Mern Stack Development, Deep Learning and
-                Mathematics.
+                <b style={{ fontWeight: 'bolder' }}>
+                  Some of my interests:
+                </b>{' '}
+                Data Structures and Algorithms, API development, Mern Stack
+                Development, Deep Learning and Mathematics.
               </p>
             </Col>
           </Row>
