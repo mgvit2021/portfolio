@@ -21,6 +21,33 @@ export class Projects extends Component {
                 className='proj-card flex-fill mt-4'
                 style={{ width: '18rem' }}
               >
+                <Card.Img
+                  className='img-ht'
+                  variant='top'
+                  src={Developer}
+                  height={149}
+                />
+                <Card.Body>
+                  <Card.Title>TaskSpace</Card.Title>
+                  <Card.Subtitle className='mb-2 text-muted'>
+                    Full-Stack | WebRTC
+                  </Card.Subtitle>
+                  <Card.Text>
+                    A simple task organising and prioritising application
+                    extending the use of webRTC to build a real-time
+                    collaborative environment.
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer className='text-center text-muted font-weight-bolder'>
+                  In Progress
+                </Card.Footer>
+              </Card>
+            </Col>
+            <Col xs={12} md={4} className='d-flex'>
+              <Card
+                className='proj-card flex-fill mt-4'
+                style={{ width: '18rem' }}
+              >
                 <Card.Img className='img-ht' variant='top' src={Covid} />
                 <Card.Body>
                   <Card.Title>Covid-19 Tracker</Card.Title>
@@ -42,6 +69,30 @@ export class Projects extends Component {
                 </Card.Footer>
               </Card>
             </Col>
+            <Col xs={12} md={4} className='d-flex'>
+              <Card
+                className='proj-card flex-fill mt-4'
+                style={{ width: '18rem' }}
+              >
+                <Card.Img className='img-ht' variant='top' src={SIHImage} />
+                <Card.Body>
+                  <Card.Title>Elderly Care System</Card.Title>
+                  <Card.Subtitle className='mb-2 text-muted'>
+                    Smart India Hackathon|PoseNet|AWS
+                  </Card.Subtitle>
+                  <Card.Text>
+                    Problem given by AWS India, was to build a monitoring system
+                    that could be installed in an old age home to make it easy
+                    for the caretakers to act quickly in case of emergencies.
+                    <br />
+                    <b>We Won the internal hackathon.</b>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+
+          <Row className='mt-4'>
             <Col xs={12} md={4} className='d-flex'>
               <Card
                 className='proj-card flex-fill mt-4'
@@ -72,30 +123,6 @@ export class Projects extends Component {
                 </Card.Footer>
               </Card>
             </Col>
-            <Col xs={12} md={4} className='d-flex'>
-              <Card
-                className='proj-card flex-fill mt-4'
-                style={{ width: '18rem' }}
-              >
-                <Card.Img className='img-ht' variant='top' src={SIHImage} />
-                <Card.Body>
-                  <Card.Title>Elderly Care System</Card.Title>
-                  <Card.Subtitle className='mb-2 text-muted'>
-                    Smart India Hackathon|PoseNet|AWS
-                  </Card.Subtitle>
-                  <Card.Text>
-                    Problem given by AWS India, was to build a monitoring system
-                    that could be installed in an old age home to make it easy
-                    for the caretakers to act quickly in case of emergencies.
-                    <br />
-                    <b>We Won the internal hackathon.</b>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-
-          <Row className='mt-4'>
             <Col xs={12} md={4} className='d-flex'>
               <Card
                 className='proj-card flex-fill mt-4'
@@ -149,33 +176,6 @@ export class Projects extends Component {
                   <Card.Link href='https://github.com/mgvit2021/Invisible-Cloak'>
                     GitHub
                   </Card.Link>
-                </Card.Footer>
-              </Card>
-            </Col>
-            <Col xs={12} md={4} className='d-flex'>
-              <Card
-                className='proj-card flex-fill mt-4'
-                style={{ width: '18rem' }}
-              >
-                <Card.Img
-                  className='img-ht'
-                  variant='top'
-                  src={Developer}
-                  height={149}
-                />
-                <Card.Body>
-                  <Card.Title>TaskSpace</Card.Title>
-                  <Card.Subtitle className='mb-2 text-muted'>
-                    Full-Stack | WebRTC
-                  </Card.Subtitle>
-                  <Card.Text>
-                    A simple task organising and prioritising application
-                    extending the use of webRTC to build a real-time
-                    collaborative environment.
-                  </Card.Text>
-                </Card.Body>
-                <Card.Footer className='text-center text-muted font-weight-bolder'>
-                  In Progress
                 </Card.Footer>
               </Card>
             </Col>
