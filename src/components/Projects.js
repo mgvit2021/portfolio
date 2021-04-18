@@ -25,7 +25,7 @@ export class Projects extends Component {
                 <Card.Body>
                   <Card.Title>Covid-19 Tracker</Card.Title>
                   <Card.Subtitle className='mb-2 text-muted'>
-                    React.js|Chart.js
+                    REST | React.js | Chart.js
                   </Card.Subtitle>
                   <Card.Text>
                     An application built using React.js to track real-time
@@ -51,7 +51,7 @@ export class Projects extends Component {
                 <Card.Body>
                   <Card.Title>Product Management API</Card.Title>
                   <Card.Subtitle className='mb-2 text-muted'>
-                    REST API|Node.js|Swagger
+                    REST API | Node.js | Swagger
                   </Card.Subtitle>
                   <Card.Text>
                     A generic Product Management API built using Express and
@@ -105,7 +105,7 @@ export class Projects extends Component {
                 <Card.Body>
                   <Card.Title>Coursify</Card.Title>
                   <Card.Subtitle className='mb-2 text-muted'>
-                    Node.js|Express|Bootstrap
+                    Node.js | Express | Bootstrap
                   </Card.Subtitle>
                   <Card.Text>
                     Coursify is a course management NodeJS-application that
@@ -138,7 +138,7 @@ export class Projects extends Component {
                 <Card.Body>
                   <Card.Title>Invisible Cloak</Card.Title>
                   <Card.Subtitle className='mb-2 text-muted'>
-                    Python|OpenCV
+                    Python | OpenCV
                   </Card.Subtitle>
                   <Card.Text>
                     A fun project to play with harry potter like invisible
@@ -164,19 +164,18 @@ export class Projects extends Component {
                   height={149}
                 />
                 <Card.Body>
-                  <Card.Title>DevCom</Card.Title>
+                  <Card.Title>TaskSpace</Card.Title>
                   <Card.Subtitle className='mb-2 text-muted'>
-                    Full-Stack|MERN
+                    Full-Stack | WebRTC
                   </Card.Subtitle>
                   <Card.Text>
-                    An application to be built using MERN stack, that will help
-                    in connecting developers accross the world.
+                    A simple task organising and prioritising application
+                    extending the use of webRTC to build a real-time
+                    collaborative environment.
                   </Card.Text>
                 </Card.Body>
-                <Card.Footer className='text-center'>
-                  <Card.Link href='https://github.com/mgvit2021/DevCom'>
-                    GitHub
-                  </Card.Link>
+                <Card.Footer className='text-center text-muted font-weight-bolder'>
+                  In Progress
                 </Card.Footer>
               </Card>
             </Col>

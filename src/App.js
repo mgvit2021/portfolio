@@ -29,7 +29,12 @@ function App() {
        */}
       <div className={`splash ${isSplash}`}>
         <Zoom left cascade>
-          <h1 className='fade-in'>Hey! Welcome to my Portfolio</h1>
+          <h1 className='fade-in'>
+            Hey! Welcome to my Portfolio{' '}
+            <span role='img' aria-label='emoji'>
+              &#128075;
+            </span>
+          </h1>
         </Zoom>
       </div>
       <NavbarHead />

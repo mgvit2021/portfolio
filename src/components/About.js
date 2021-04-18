@@ -20,16 +20,21 @@ export class About extends Component {
             </Col>
             <Col className='text-left mt-4' md={7}>
               <p className='lead about-text'>
-                I am a senior year undergraduate at VIT University, Chennai
-                completing my majors in Computer science. I enjoy being
-                challenged and engage with projects that require me to work
-                outside my comfort zone and knowledge set.
-                <br />
-                <b style={{ fontWeight: 'bolder' }}>
-                  Some of my interests:
-                </b>{' '}
-                Data Structures and Algorithms, API development, Mern Stack
-                Development, Deep Learning and Mathematics.
+                I am a senior year Computer Science student at VIT University,
+                Chennai currently working as a{' '}
+                <mark className='font-italic'>
+                  Software Engineering Intern @Honeywell Inc.
+                </mark>{' '}
+                I enjoy being challenged and engage with projects that require
+                me to work outside my comfort zone and knowledge set.
+                <p className='font-italic'>
+                  I am an optimist filled with curiosity trying to solve
+                  problems using tech.
+                </p>
+                <mark></mark>
+                <b className='font-weight-bolder'>Some of my interests: </b>
+                Data Structures and Algorithms, System Design, Backend
+                Development, Deep Learning, Mathematics and Adventure Sports.
               </p>
             </Col>
           </Row>
