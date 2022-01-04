@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.18b7764f.chunk.css",
-    "main.js": "/portfolio/static/js/main.c2631203.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c2631203.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.41504494.chunk.css",
+    "main.js": "/portfolio/static/js/main.77540c78.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.77540c78.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.989b430d.chunk.js": "/portfolio/static/js/2.989b430d.chunk.js",
     "static/js/2.989b430d.chunk.js.map": "/portfolio/static/js/2.989b430d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7c52823083ce66ab862d3ced26c3018f.js": "/portfolio/precache-manifest.7c52823083ce66ab862d3ced26c3018f.js",
+    "precache-manifest.9a7906f891fbc157a432dfac6edb5627.js": "/portfolio/precache-manifest.9a7906f891fbc157a432dfac6edb5627.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.18b7764f.chunk.css.map": "/portfolio/static/css/main.18b7764f.chunk.css.map",
+    "static/css/main.41504494.chunk.css.map": "/portfolio/static/css/main.41504494.chunk.css.map",
     "static/js/2.989b430d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.989b430d.chunk.js.LICENSE.txt",
     "static/media/Cloak.gif": "/portfolio/static/media/Cloak.faa9e42b.gif",
     "static/media/Course.jpg": "/portfolio/static/media/Course.a113cd9c.jpg",
@@ -21,7 +21,7 @@
     "static/media/banner.svg": "/portfolio/static/media/banner.8187b78b.svg",
     "static/media/covid.jpeg": "/portfolio/static/media/covid.4afebc4f.jpeg",
     "static/media/dev.png": "/portfolio/static/media/dev.9f5127a5.png",
-    "static/media/email.svg": "/portfolio/static/media/email.77c83e33.svg",
+    "static/media/email.svg": "/portfolio/static/media/email.e6956db2.svg",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.d99368ca.svg",
     "static/media/github.svg": "/portfolio/static/media/github.192a6620.svg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.5b23a837.svg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.989b430d.chunk.js",
-    "static/css/main.18b7764f.chunk.css",
-    "static/js/main.c2631203.chunk.js"
+    "static/css/main.41504494.chunk.css",
+    "static/js/main.77540c78.chunk.js"
   ]
 }
