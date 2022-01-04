@@ -8,7 +8,7 @@ export class About extends Component {
     return (
       <div className='about container p-5' id='about'>
         <Fade bottom>
-          <h4 className='lead about-head text-center'> About me </h4>
+          <h4 className='lead about-head text-center'> About Me </h4>
           <hr className='about-line'></hr>
           <Row>
             <Col md={4}>
@@ -20,21 +20,21 @@ export class About extends Component {
             </Col>
             <Col className='text-left mt-4' md={7}>
               <p className='lead about-text'>
-                I am a senior year Computer Science student at VIT University,
-                Chennai currently working as a{' '}
+              Experienced Software Engineer with a demonstrated history of working 
+              in the internet industry.<br/>
+              Skilled in Node.js, Spring Boot, Java, JavaScript, and Python. 
+              <br/>
+              Strong engineering professional with a Bachelor of Technology 
+              focused in Computer Science from Vellore Institute Of Technology, Chennai 
+              currently working as a{' '}
                 <mark className='font-italic'>
-                  Software Engineering Intern @Honeywell Inc.
-                </mark>{' '}
-                I enjoy being challenged and engage with projects that require
-                me to work outside my comfort zone and knowledge set.
-                <p className='font-italic'>
-                  I am an optimist filled with curiosity trying to solve
-                  problems using tech.
-                </p>
-                <mark></mark>
+                  Software Engineer 1 @Honeywell Inc.
+                </mark>
+                <br/>
+                <br/>
                 <b className='font-weight-bolder'>Some of my interests: </b>
-                Data Structures and Algorithms, System Design, Backend
-                Development, Deep Learning, Mathematics and Adventure Sports.
+                System Design, Backend Development, Problem solving, 
+                System Architecture, and Adventure Sports.
               </p>
             </Col>
           </Row>

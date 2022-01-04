@@ -49,11 +49,19 @@ export default function MyTimeline() {
             <Paper elevation={3} className={classes.paper}>
               <Typography variant='h6' component='h2'>
                 <b>Honeywell</b>
-                <p style={{ fontSize: '15px' }}>
-                  <i>Jan'21 - (Present)</i>
+                <p style={{ fontSize: '16px', margin: 'none' }}>
+                  <i className='font-weight-bolder'>Software Engineer 1</i>
+                  <br />
+                  <i>Aug'21 - Present</i>
                 </p>
               </Typography>
-              <Typography>Software Engineering Intern</Typography>
+              <Typography variant='h6' component='h2'>
+                <p style={{ fontSize: '16px', margin: 'none' }}>
+                  <i className='font-weight-bolder'>Software Engineering Intern</i>
+                  <br />
+                  <i>Jan'21 - July'21</i>
+                </p>
+              </Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>

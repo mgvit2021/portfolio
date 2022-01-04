@@ -52,7 +52,7 @@ export class NavbarHead extends Component {
             </Nav.Link>
             <Nav.Link
               target='blank'
-              href='https://drive.google.com/file/d/1eN_0WdfQNAUE2RjgFWvZ8ottt6Q-n9Gn/view?usp=sharing'
+              href='https://drive.google.com/file/d/1U3HIkwFhvoVh4CntMKFBipSOA8KmJLRN/view?usp=sharing'
               className='n-link pr-3'
             >
               Resume
