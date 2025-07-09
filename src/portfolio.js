@@ -25,15 +25,15 @@ const greeting = {
   subTitle: emoji(
     "A seasoned software engineer 🚀 specializing in Microservice architecture, distributed systems, and web applications. With a robust skill set in GoLang, JavaScript, Kubernetes, and Docker, I excel in crafting high-performance, scalable, and reliable software solutions."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1zTQkHsQfr4DgGJdZTscU-Z0ewFRQ4ELg/view?usp=drivesdk", // Set to empty to hide the button
+resumeLink:
+    "https://drive.google.com/file/d/1ccz6MHqcrgKp7A5Hm2QR3WtEhTgmqqLr/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/mgvit2021",
+  github: "https://github.com/mrgupta7",
   linkedin: "https://www.linkedin.com/in/mridul-gupta2021/",
   gmail: "em.mridul.gupta@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -168,33 +168,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "F5 Netowrks",
-      companylogo: require("./assets/images/f5logo.png"),
-      date: "Apr 2022 – Present",
-      desc: "Currently working as a Software Engineer II.",
+      role: "Software Engineer II",
+      company: "HashiCorp",
+      companylogo: require("./assets/images/hashicorp.png"),
+      date: "Feb 2025 – Present",
       descBullets: [
-        "Currently engaged in design discussions for new features and responsible for crafting automation tests to ensure the robustness and performance of features within our team’s ownership.",
-        "Made significant contributions in developing core features like Schedulers, RBAC, and iRules, for the Central Manager platform, which was successfully released for general availability in September.",
+        "Developing and shipping customer-facing features for Consul, with focus on service discovery, networking, and system resilience in multi-tenant, distributed environments.",
+        "Leading efforts to mitigate security vulnerabilities, manage release cycles, and ensure production readiness.",
+        "Part of the on-call rotation, resolving high-priority customer issues and contributing to operational excellence."
       ]
     },
     {
+role: "Software Engineer II",
+      company: "F5 Networks",
+      companylogo: require("./assets/images/f5logo.png"),
+      date: "Apr 2022 – Feb 2025",
+      descBullets: [
+        "Designed and deployed an enterprise-grade authentication system, integrating support for protocols like LDAP, TACACS+, RADIUS, to provide robust, secure access management across the platform.",
+        "Migrated core platform communication from NATS to gRPC and Kafka, reducing latency by 30–50%.",
+        "Implemented Kubernetes leader-election to eliminate redundant task execution in multi-node clusters."
+      ]
+    },
+{
       role: "Software Engineer",
       company: "Honeywell",
       companylogo: require("./assets/images/honeywellLogo.jpeg"),
       date: "Jan 2021 – Apr 2022",
       descBullets: [
         "Worked with the warehouse execution team to develop and enhance software and algorithms across multiple modules.",
-        "Successfully implemented dynamic storage allocation within the warehouse system, optimizing space utilization and efficiency.",
+        "Successfully implemented dynamic storage allocation within the warehouse system, optimizing space utilization and efficiency."
       ]
     },
-    {
-      role: "Mini Project",
-      company: "Paypal",
-      companylogo: require("./assets/images/paypalLogo.jpeg"),
-      date: "Jan 2020 – Mar 2020",
-      desc: "Full-stack development - Successfully built and deployed an inventory management web-application during the training using Node.js, Express, React and NoSQL database. Amongst the top 32 students, selected to be trained by PayPal."
-    }
   ]
 };
 
